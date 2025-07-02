@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+        <img class="logo" src="/Assets/logo.svg" alt="logo">
+        <div class="menu">
+            <img src="/Assets/icon-menu.svg" alt="icon-menu" class="menu-icon">
+        </div>
+        <nav>
+            <div class="dropdown dropdown-left">
+                <button class="dropbtn">
+                    Features 
+                    <img src="/Assets/icon-arrow-down.svg" alt="Arrow Down" class="arrow-icon">
+                </button>
+                <div class="dropdown-content content-left">
+                    <div class="dropdown-item">
+                        <img src="/Assets/icon-todo.svg" alt="Todo">
+                        <a href="#">Todo List</a>
+                    </div>
+                    <div class="dropdown-item">
+                        <img src="/Assets/icon-calendar.svg" alt="Calendar">
+                        <a href="#">Calendar</a>
+                    </div>
+                    <div class="dropdown-item">
+                        <img src="/Assets/icon-reminders.svg" alt="Reminders">
+                        <a href="#">Reminders</a>
+                    </div>
+                    <div class="dropdown-item">
+                        <img src="/Assets/icon-planning.svg" alt="Planning">
+                        <a href="#">Planning</a>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown dropdown-right">
+                <button class="dropbtn">
+                    Company
+                    <img src="/Assets/icon-arrow-down.svg" alt="Arrow Down" class="arrow-icon-down">
+                    <img src="/Assets/icon-arrow-up.svg" alt="icon-arrow-up" class="arrow-icon-up">
+                </button>
+                <div id="dropdownMenu" class="dropdown-content content-right">
+                    <a href="#">History</a>
+                    <a href="#">Our Team</a>
+                    <a href="#">Blog</a>
+                </div>
+            </div>
+            </div>
+            <a href="#">Careers</a>
+            <a href="#">About</a>
+
+        </nav>
+        <div class="auth-buttons">
+            <button class="loginBtn">Login</button>
+            <button class="registerBtn">Register</button>
+        </div>
+        </header>
+    <main>
+        <section class="hero">
+            <div class="left-hero">
+                <h1>Make <br>remote work</h1>
+                <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+                <button class="learn-more">Learn more</button>
+                <div class="clients">
+                    <img src="/Assets/client-databiz.svg" alt="client-databiz">
+                    <img src="/Assets/client-audiophile.svg" alt="client-audiophile">
+                    <img src="/Assets/client-meet.svg" alt="client-meet">
+                    <img src="/Assets/client-maker.svg" alt="client-maker">
+                </div>
+
+            </div>
+            <div class="right-hero">
+                <img src="/Assets/image-hero-desktop.png" alt="Hero Image" class="hero-image">
+                <img src="/Assets/image-hero-mobile.png" alt="Hero Image Mobile" class="hero-image-mobile">
+            </div>    
+        </section>        
+
+</body>
+</html>
